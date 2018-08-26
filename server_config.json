@@ -14,7 +14,15 @@
       ]
     },
     "streamSettings": {
-      "network": "ws"
+      "network": "kcp",
+      "security": "tls",
+      "kcpSettings": {
+        "uplinkCapacity": 100,
+        "downlinkCapacity": 100,
+        "header": {
+          "type": "wechat-video",
+        }
+      }
     }
   },
   "outbound": {
