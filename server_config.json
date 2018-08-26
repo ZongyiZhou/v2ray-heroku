@@ -20,7 +20,7 @@
         "uplinkCapacity": 100,
         "downlinkCapacity": 100,
         "header": {
-          "type": "wechat-video",
+          "type": "wechat-video"
         }
       }
     }
